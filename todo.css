@@ -1,7 +1,7 @@
 body { 
     font-family: helvetica;
     font-size: 15px;
-    font-weight: bold; 
+    font-weight: inherit ; 
     background-color: blue
 }
 a {
@@ -10,7 +10,7 @@ a {
     display:block;
 }
 a:hover{background-color: purple;
-        font-weight: lighter;
+        font-weight: bold;
 }
 a:active {color:red;
     
@@ -28,7 +28,10 @@ a:visited {color:red;
     border-top: 4px solid black;
     border-bottom: 4px solid black;
     display: inline-block;
-    
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top:0;
 }
 #date { font-size: 20px;
     
@@ -56,3 +59,7 @@ font-weight: lighter
 ::placeholder{color:purple;
     
 }
+    .list{margin: 55px;
+        overflow-y: scroll; 
+        height: 400px;
+    }
