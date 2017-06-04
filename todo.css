@@ -4,17 +4,31 @@ body {
     font-weight: bold; 
     background-color: blue
 }
-a {color: yellow;
-text-decoration: none}
+a {
+    color: yellow;
+    text-decoration: none;
+    display:block;
+}
+a:hover{background-color: purple;
+        font-weight: lighter;
+}
+a:active {color:red;
+    
+}
+a:visited {color:red;
+
+}
 .short-desc {
     font-size:12px;
     display: inline
+    
 }
 #to-do { font-family: sans-serif;
-font-size: 35px;
-border-top: 4px solid black;
-border-bottom: 4px solid black;
-    display: inline-block
+    font-size: 35px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    display: inline-block;
+    
 }
 #date { font-size: 20px;
     
@@ -23,4 +37,22 @@ border-bottom: 4px solid black;
     font-family: serif;
     font-size:30px;
     font-weight: bold
+}
+#des {font-size: 20px;
+font-weight: lighter
+}
+.box {
+    color: black;
+    background-color: rgb(150 ,150 ,150);
+}
+
+.hw {
+    padding: 5px;
+    border: 2px solid black;
+    margin:1px;
+}
+
+
+::placeholder{color:purple;
+    
 }
